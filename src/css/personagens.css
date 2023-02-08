@@ -1,0 +1,354 @@
+body {
+  font-family: "Poppins";
+  background-color: #5e5659;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cabecalho .logo {
+  width: 65px;
+  margin-left: 8px;
+}
+
+.cabecalho .menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.cabecalho nav li a {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+  background-color: #1b9dcc;
+}
+
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#aloy {
+  background-color: rgb(28, 27, 27);
+}
+
+.lista-personagens {
+  margin-top: 60px;
+  margin-bottom: 220px;
+  text-align: center;
+}
+
+.lista-personagens button {
+  background-color: #74686c;
+  color: #ffffff;
+  width: 700px;
+  height: 70px;
+  border: 5px solid #ffffff;
+  border-radius: 70px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.lista-personagens button:hover {
+  box-shadow: 0 0 10px #74686c;
+}
+
+.lista-personagens button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #1b9dcc;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  justify-content: center;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 36px;
+  margin-left: 24%;
+  margin-right: 24%;
+  margin-bottom: 250px;
+}
+
+.p-gaia {
+  margin-bottom: 118px;
+}
+
+.personagens img {
+  max-width: 1000px;
+  background-color: rgb(28, 27, 27);
+  border-radius: 30px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 1.5s ease;
+  margin-left: 450px;
+  margin-right: 450px;
+  cursor: pointer;
+}
+
+.personagens img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.personagens .top {
+  margin-top: 100px;
+}
+
+.fonte p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.fonte a {
+  color: #1b9dcc;
+}
+
+footer {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.texto-rodape {
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands {
+  font-size: 40px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#voltarTopo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #1b9dcc;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#voltarTopo:hover {
+  background-color: #555;
+}
+
+@media (max-width: 1440px) {
+  .lista-personagens button {
+    width: 480px;
+    height: 70px;
+  }
+
+  .personagens p {
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+
+  .personagens img {
+    width: 650px;
+    margin: 0;
+    margin-left: 22%;
+  }
+}
+
+@media (max-width: 1000px){
+  h1 {
+    font-size: 40px;
+  }
+
+  .lista-personagens button {
+    width: 350px;
+    height: 60px;
+    font-size: 14px;
+  }
+
+  .personagens p {
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+
+  .personagens img {
+    width: 550px;
+    margin: 0;
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+}
+
+@media (max-width: 700px) {
+  .cabecalho .logo {
+    width: 50px;
+    margin-left: 0;
+  }
+
+  .cabecalho .menu {
+    height: 50%;
+  }
+
+  .cabecalho nav li a {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .lista-personagens button {
+    width: 230px;
+    height: 60px;
+    font-size: 12px;
+  }
+
+  .personagens p {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .personagens img {
+    width: 450px;
+    margin: 0;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+}
+
+@media (max-width: 500px) {
+  .cabecalho .logo {
+    width: 35px;
+    margin-left: 0;
+  }
+
+  .cabecalho .menu {
+    height: 30%;
+  }
+
+  .cabecalho nav li a {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .lista-personagens button {
+    width: 170px;
+    height: 60px;
+  }
+
+  .personagens h2 {
+    font-size: 20px;
+  }
+
+  .personagens p {
+    font-size: 14px;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .personagens img {
+    width: 350px;
+    margin: 0;
+    margin-left: 8%;
+  }
+
+  .fonte p {
+    font-size: 14px;
+  }
+
+  .texto-rodape {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 376px) {
+  .cabecalho .logo {
+    width: 30px;
+    margin-left: 0;
+  }
+
+  .cabecalho .menu {
+    height: 20%;
+  }
+
+  .cabecalho nav li a {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .lista-personagens button {
+    width: 150px;
+    height: 50px;
+    font-size: 10px;
+  }
+
+  .personagens h2 {
+    font-size: 18px;
+  }
+
+  .personagens p {
+    font-size: 14px;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .personagens img {
+    width: 300px;
+    margin: 0;
+    margin-left: 8%;
+  }
+
+  .fonte p {
+    font-size: 12px;
+  }
+}
