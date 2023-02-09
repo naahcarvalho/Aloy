@@ -4,7 +4,11 @@
   <img alt="projeto Horizon Forbiden West" src=".github/preview.jpeg" width="100%">
 </p>
 
+<<<<<<< HEAD
 ## Tecnologias
+=======
+### Tecnologias
+>>>>>>> 8f8cde2f16c86c98376a65d3c8b98cf943ed4df1
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -12,7 +16,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-## Projeto
+### Projeto
 
 É um jogo eletrônico de RPG de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment.
 
