@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### Projeto
 
-É um jogo eletrônico de RPG de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment.
+É um site sobre o jogo eletrônico de RPG de ação Horizon Forbiden West, desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment.
 
 - [Visite o projeto online](https://horizon-forbiden-west.vercel.app/)
 
